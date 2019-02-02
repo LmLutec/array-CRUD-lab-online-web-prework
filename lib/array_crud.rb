@@ -1,17 +1,17 @@
 def create_an_empty_array
-  
+   []
 end
 
 def create_an_array
-  
+  colors = ["blue" , "green" , "purple" , "black"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+   colors << "red"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  colors.unshift("orange")
 end
 
 def remove_element_from_end_of_array(array)
