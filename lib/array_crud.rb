@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  array = ["element" , "element" , "element" , "element"]
+  array = [element , element , element , element]
 end
 
 def add_element_to_end_of_array(array, element)
-   array << "element"
+   array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  colors.unshift("element")
+  colors.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
